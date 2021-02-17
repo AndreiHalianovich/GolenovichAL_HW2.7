@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		A82CD24125DC3C040084822B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82CD24025DC3C040084822B /* AppDelegate.swift */; };
 		A82CD24325DC3C040084822B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82CD24225DC3C040084822B /* SceneDelegate.swift */; };
-		A82CD24525DC3C040084822B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82CD24425DC3C040084822B /* ViewController.swift */; };
+		A82CD24525DC3C040084822B /* MainContactsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82CD24425DC3C040084822B /* MainContactsListViewController.swift */; };
 		A82CD24825DC3C040084822B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A82CD24625DC3C040084822B /* Main.storyboard */; };
 		A82CD24A25DC3C070084822B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A82CD24925DC3C070084822B /* Assets.xcassets */; };
 		A82CD24D25DC3C070084822B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A82CD24B25DC3C070084822B /* LaunchScreen.storyboard */; };
+		A82CD25C25DC3C980084822B /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82CD25B25DC3C980084822B /* Person.swift */; };
+		A82CD26225DC3CB90084822B /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82CD26125DC3CB90084822B /* DataManager.swift */; };
+		A82CD26925DC5E020084822B /* DetailsContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82CD26825DC5E010084822B /* DetailsContactViewController.swift */; };
+		A82CD27025DD71760084822B /* SectionContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82CD26F25DD71750084822B /* SectionContactsViewController.swift */; };
+		A82CD27325DD8D360084822B /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82CD27225DD8D350084822B /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A82CD23D25DC3C040084822B /* GolenovichAL_HW2.7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GolenovichAL_HW2.7.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A82CD24025DC3C040084822B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A82CD24225DC3C040084822B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A82CD24425DC3C040084822B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A82CD24425DC3C040084822B /* MainContactsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContactsListViewController.swift; sourceTree = "<group>"; };
 		A82CD24725DC3C040084822B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A82CD24925DC3C070084822B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A82CD24C25DC3C070084822B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A82CD24E25DC3C070084822B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A82CD25B25DC3C980084822B /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		A82CD26125DC3CB90084822B /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		A82CD26825DC5E010084822B /* DetailsContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsContactViewController.swift; sourceTree = "<group>"; };
+		A82CD26F25DD71750084822B /* SectionContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionContactsViewController.swift; sourceTree = "<group>"; };
+		A82CD27225DD8D350084822B /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,68 @@
 		A82CD23F25DC3C040084822B /* GolenovichAL_HW2.7 */ = {
 			isa = PBXGroup;
 			children = (
-				A82CD24025DC3C040084822B /* AppDelegate.swift */,
-				A82CD24225DC3C040084822B /* SceneDelegate.swift */,
-				A82CD24425DC3C040084822B /* ViewController.swift */,
-				A82CD24625DC3C040084822B /* Main.storyboard */,
-				A82CD24925DC3C070084822B /* Assets.xcassets */,
-				A82CD24B25DC3C070084822B /* LaunchScreen.storyboard */,
-				A82CD24E25DC3C070084822B /* Info.plist */,
+				A82CD26525DC3CC40084822B /* Managers */,
+				A82CD25F25DC3C9C0084822B /* Models */,
+				A82CD25725DC3C2D0084822B /* ViewControllers */,
+				A82CD25925DC3C3A0084822B /* Storyboards */,
+				A82CD25525DC3C1B0084822B /* Supporting files */,
+				A82CD25A25DC3C460084822B /* Resources */,
 			);
 			path = GolenovichAL_HW2.7;
+			sourceTree = "<group>";
+		};
+		A82CD25525DC3C1B0084822B /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				A82CD24025DC3C040084822B /* AppDelegate.swift */,
+				A82CD24225DC3C040084822B /* SceneDelegate.swift */,
+				A82CD24E25DC3C070084822B /* Info.plist */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		A82CD25725DC3C2D0084822B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A82CD24425DC3C040084822B /* MainContactsListViewController.swift */,
+				A82CD26825DC5E010084822B /* DetailsContactViewController.swift */,
+				A82CD26F25DD71750084822B /* SectionContactsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A82CD25925DC3C3A0084822B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A82CD24625DC3C040084822B /* Main.storyboard */,
+				A82CD24B25DC3C070084822B /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		A82CD25A25DC3C460084822B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A82CD24925DC3C070084822B /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A82CD25F25DC3C9C0084822B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A82CD25B25DC3C980084822B /* Person.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A82CD26525DC3CC40084822B /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				A82CD26125DC3CB90084822B /* DataManager.swift */,
+				A82CD27225DD8D350084822B /* DataService.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +200,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A82CD24525DC3C040084822B /* ViewController.swift in Sources */,
+				A82CD26925DC5E020084822B /* DetailsContactViewController.swift in Sources */,
+				A82CD27325DD8D360084822B /* DataService.swift in Sources */,
+				A82CD24525DC3C040084822B /* MainContactsListViewController.swift in Sources */,
+				A82CD27025DD71760084822B /* SectionContactsViewController.swift in Sources */,
+				A82CD26225DC3CB90084822B /* DataManager.swift in Sources */,
 				A82CD24125DC3C040084822B /* AppDelegate.swift in Sources */,
+				A82CD25C25DC3C980084822B /* Person.swift in Sources */,
 				A82CD24325DC3C040084822B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,7 +355,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = GolenovichAL_HW2.7/Info.plist;
+				INFOPLIST_FILE = "GolenovichAL_HW2.7/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,7 +373,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = GolenovichAL_HW2.7/Info.plist;
+				INFOPLIST_FILE = "GolenovichAL_HW2.7/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
